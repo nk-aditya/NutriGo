@@ -230,3 +230,59 @@ section{
     transform: scale(1.15);
     opacity: 0.7;
 }
+
+/* ========================================= How it work section ============================================= */
+.section-steps{
+    background-color: #f2f2f2;
+}
+.steps-box:first-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.work-steps{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.phone-screen{
+    width: 40%;
+    border-radius: 23px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.work-steps div{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 1px;
+}
+
+.work-steps p{
+    color:#e67e22;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+.btn-app img{
+    width: 220px;
+    margin:40px 20px 10px 0;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+  
