@@ -4,19 +4,20 @@
     box-sizing: border-box;
 }
 
-html{
+html.body{
+    width: 100vw;
     background-color: #ffffff;
     color:#555;
     font-family: Lato,sans-serif;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
-
 
 header {
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('img/hero-image.jpg');
@@ -34,13 +35,6 @@ header {
     transform: translate(-66%,-80%);
 }
 
-@media(max-width:1098px){
-    .hero-text-box{
-        width: 733px;
-        transform: translate(-55%,-100%);
-    }
-}
-
 .hero-text-box h1{
     margin: 0 0 20px;
     padding: 0;
@@ -50,12 +44,6 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 3px;
-}
-
-@media(max-width:1098px){
-    .hero-text-box h1{
-        font-size: 3rem;
-    }
 }
 
 .btn,
@@ -77,6 +65,7 @@ input[type=submit]{
 input[type=submit]{
     background-color: #e67e22;
     color: #fff;
+    border: 2px solid #e67e22;
     border-radius: 30px;
     margin-right: 20px;
     transition: all 0.2s ease-in-out;
@@ -218,7 +207,6 @@ section{
 
 .meal-showcase li{
     width: 30%;
-    /* margin-top: 2px; */
     margin:4px 2px 0 ;
 }
 
@@ -347,7 +335,7 @@ section{
 
 /* ========================================= Testimonials section ============================================= */
 .section-testimonials{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('img/Testimonial-bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url('img/Testimonial-bg.jpg');
     height: 80vh;
     background-size: cover;
     background-position: center;
