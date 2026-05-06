@@ -111,14 +111,14 @@ This project was built to:
 
 ## 📸 Screenshots
 
-* [Landing Page](landing.png)
-* [Feature Section](feature-section.png)
-* [Favourite Meal Section](favourite-meal-section.png)
-* [Process Section](process-section.png)
-* [Cities Section](cities-section.png)
-* [Testimonials Section](testimonial-section.png)
-* [Plans Section](plan-section.png)
-* [Contact and Footer Section](contact-and-footer-section.png)
+* [Landing Page](vendors/img/landing.png)
+* [Feature Section](vendors/img/feature-section.png)
+* [Favourite Meal Section](vendors/img/favourite-meal-section.png)
+* [Process Section](vendors/img/process-section.png)
+* [Cities Section](vendors/img/cities-section.png)
+* [Testimonials Section](vendors/img/testimonial-section.png)
+* [Plans Section](vendors/img/plan-section.png)
+* [Contact and Footer Section](vendors/img/Contact-and-footer-section.png)
 
 ---
 
